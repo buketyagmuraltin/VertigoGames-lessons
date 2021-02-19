@@ -15,8 +15,8 @@ public class FirstLessonScript : MonoBehaviour
     [SerializeField] int tamSayi2 = 100;
     float ondalikSayi = 0.25f;
     float ondalikSayi2 = 4.2125f;
-    bool dogryYanlis = true;
-    bool dogruYanlis2 = false;
+    bool dogryYanlis = false;
+    bool dogruYanlis2 = true;
     void Start()
     {
         
