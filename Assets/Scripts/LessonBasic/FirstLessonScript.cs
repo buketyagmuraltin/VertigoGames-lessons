@@ -17,6 +17,8 @@ public class FirstLessonScript : MonoBehaviour
     float ondalikSayi2 = 4.2125f;
     bool dogryYanlis = false;
     bool dogruYanlis2 = true;
+    [SerializeField] private Vector3 ucFloat = new Vector3(1, 2, 3);
+
     void Start()
     {
         
