@@ -1,0 +1,9 @@
+diff a/Assets/TopDownsShooter/Prefabs/InputManager.prefab b/Assets/TopDownsShooter/Prefabs/InputManager.prefab	(rejected hunks)
+@@ -0,6 +0,7 @@
+ GameObject:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
+   m_PrefabAsset: {fileID: 0}
+   serializedVersion: 6
+   m_Component:
