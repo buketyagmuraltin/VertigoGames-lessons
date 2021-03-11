@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TopDpwnShooter
+namespace TopDownShooter.Camera
 {
     public class CameraController : MonoBehaviour
     {
