@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TopDpwnShooter
+namespace TopDownShooter.Camera
 {
-    [CreateAssetMenu(menuName = "Topdow Shooter/Camera/Camera Settings")]
+    [CreateAssetMenu(menuName = "Topdown Shooter/Camera/Camera Settings")]
     public class CameraSettings : ScriptableObject
     {
         [Header("Position")]
