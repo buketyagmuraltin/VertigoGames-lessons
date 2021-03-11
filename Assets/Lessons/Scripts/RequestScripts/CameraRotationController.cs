@@ -11,7 +11,9 @@ namespace Lessons.Requests
         [SerializeField] private float _lerpSpeed = 3;
         private void Update()
         {
-            _cameraTransform.rotation = Quaternion.Lerp(_cameraTransform.rotation, Quaternion.LookRotation(_targetTransform.position - _cameraTransform.position), Time.deltaTime * _lerpSpeed);
+            _cameraTransform.rotation = Quaternion.Lerp(_cameraTransform.rotation, 
+                Quaternion.LookRotation(_targetTransform.position - _cameraTransform.position), 
+                Time.deltaTime * _lerpSpeed);
         }
     }
 }
